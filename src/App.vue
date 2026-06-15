@@ -16,7 +16,10 @@ import EffortCard from './components/EffortCard.vue';
 }
 
 body {
-  background: #000000f1;
+  background-color: #000;
+  background-image: linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
   min-height: 100vh;
   display: flex;
   align-items: center;
